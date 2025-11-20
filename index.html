@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3-column</title>
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 15px;
+                width:200px;
+                height:200px;
+            }
+            .a{
+                background-color: antiquewhite;
+                grid-column:1/4;
+                
+            }
+            .b{
+                background-color: aquamarine;
+            }
+            .c{
+                background-color: bisque;
+            }
+            .d{
+                background-color: cadetblue;
+            }
+            .e{
+                background-color: chocolate;
+            }
+            .f{
+                background-color:darkgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+            <div class="d"></div>
+            <div class="e"></div>
+            <div class="f"></div>
+        </div>
+    </body>
+</html>
