@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weekly Timetable</title>
+  <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    .box{
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      
+      animation: moveBox 8s ease-in-out infinite normal;
+    }
+    @keyframes moveBox {
+      0%{
+        top: 0px;
+        left: 0px;
+        background-color: green;
+      }
+      25%{
+        top: 0px;
+        left: 400px;
+        background-color: black;
+      }
+      50%{
+        top: 400px;
+        left: 400px;
+        background-color: yellow;
+        color: black;
+      }
+      75%{
+        top: 400px;
+        left: 0px;
+        background-color: purple;
+        color: white;
+      }
+      100%{
+        top: 0px;
+        left: 0px;
+        background-color: blue;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Adarsh</div>
+</body>
+</html>
